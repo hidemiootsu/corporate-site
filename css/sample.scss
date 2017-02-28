@@ -521,7 +521,6 @@ h1{
       font-size:1.5rem;
       font-weight:bold;
       padding-bottom:15px;
-      margin-bottom: 0;
         @media (min-width: 550px) {
           font-size:2rem;
           padding-bottom:20px;
@@ -583,6 +582,18 @@ h1{
 //company.html
 #contents{
   #main{
+      .company_title{
+      color:$blue1;
+      border-bottom:3px solid $blue1;
+      font-size:1.5rem;
+      font-weight:bold;
+      padding-bottom:15px;
+      margin-bottom: 0;
+        @media (min-width: 550px) {
+          font-size:2rem;
+          padding-bottom:20px;
+        }
+      }
     th,td{
       padding: 20px 0;
       color: #626262;
@@ -593,7 +604,3 @@ h1{
     }
   }
 }
-
-
-
-
